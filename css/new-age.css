@@ -71,20 +71,20 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #fdcc52;
+  color: #684D79;
   font-family: 'Roboto', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #fcbd20;
+  color: #684D79
 }
 
 #mainNav .navbar-toggler {
   font-size: 12px;
   padding: 8px 10px;
-  color: #222222;
+  color: #684D79
 }
 
 #mainNav .navbar-nav > li > a {
@@ -95,7 +95,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #fdcc52 !important;
+  color: #684D79 !important;
   background-color: transparent;
 }
 
@@ -105,12 +105,12 @@ section h2 {
 
 #mainNav .navbar-nav > li > a,
 #mainNav .navbar-nav > li > a:focus {
-  color: #222222;
+  color: #684D79;
 }
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: #684D79
 }
 
 @media (min-width: 992px) {
@@ -126,11 +126,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li > a,
   #mainNav .navbar-nav > li > a:focus {
-    color: rgba(255, 255, 255, 0.7);
+    color: #684D79;
   }
   #mainNav .navbar-nav > li > a:hover,
   #mainNav .navbar-nav > li > a:focus:hover {
-    color: white;
+    color: #684D79;
   }
   #mainNav.navbar-shrink {
     border-color: rgba(34, 34, 34, 0.1);
@@ -157,10 +157,12 @@ header.masthead {
   width: 100%;
   padding-top: 150px;
   padding-bottom: 100px;
-  color: white;
-  background: url("../img/bg-pattern.png"), #7b4397;
+  color: #684D79;
+  background-image: url("../img/placeholder.jpg");
+  background-size: cover;
+  /* background: url("../img/bg-pattern.png"), #7b4397;
   background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#E0A991), to(#684D78));
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #E0A991, #684D78);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #E0A991, #684D78); */
 }
 
 header.masthead .header-content {
@@ -414,9 +416,9 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .btn-outline {
-  color: white;
+  color: #684D79;
   border: 1px solid;
-  border-color: white;
+  border-color: #684D79;
 }
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
