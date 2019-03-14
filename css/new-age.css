@@ -87,15 +87,10 @@ section h2 {
   color: #684D79
 }
 
-#mainNav .navbar-nav {
-  margin: auto;
-}
-
 #mainNav .navbar-nav > li > a {
   font-size: 20px;
   font-family: 'Roboto', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
-  text-transform: uppercase;
 }
 
 #mainNav .navbar-nav > li > a.active {
@@ -435,7 +430,6 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   border-radius: 300px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
-  text-transform: uppercase;
 }
 
 .btn-xl {
