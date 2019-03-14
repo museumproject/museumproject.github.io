@@ -63,8 +63,8 @@ section h2 {
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
-  -webkit-transition: all .35s;
-  transition: all .35s;
+  /*-webkit-transition: all .35s;
+  transition: all .35s;*/
   font-family: 'Roboto', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
@@ -82,13 +82,13 @@ section h2 {
 }
 
 #mainNav .navbar-toggler {
-  font-size: 12px;
+  font-size: 14px;
   padding: 8px 10px;
   color: #684D79
 }
 
 #mainNav .navbar-nav > li > a {
-  font-size: 20px;
+  font-size: 14px;
   font-family: 'Roboto', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
 }
@@ -113,13 +113,6 @@ section h2 {
 }
 
 @media (min-width: 992px) {
-  #mainNav {
-    border-color: transparent;
-    background-color: transparent;
-  }
-  #mainNav .navbar-brand {
-    color: fade(white, 70%);
-  }
   #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
     color: white;
   }
