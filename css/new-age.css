@@ -87,6 +87,12 @@ section h2 {
   color: #684D79
 }
 
+/* Affects padding for navbar items */
+.navbar-nav > li {
+  padding-left:10px;
+  padding-right:10px;
+}
+
 #mainNav .navbar-nav > li > a {
   font-size: 16px;
   font-family: 'Raleway', 'Roboto', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
