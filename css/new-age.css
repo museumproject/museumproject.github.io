@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  font-family: 'Roboto', 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Raleway', 'Roboto', 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 a {
@@ -41,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Raleway', 'Roboto', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -65,14 +65,14 @@ section h2 {
   background-color: white;
   /*-webkit-transition: all .35s;
   transition: all .35s;*/
-  font-family: 'Roboto', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Raleway', 'Roboto', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand {
   color: #684D79;
-  font-family: 'Roboto', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Raleway', 'Roboto', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -82,14 +82,14 @@ section h2 {
 }
 
 #mainNav .navbar-toggler {
-  font-size: 14px;
+  font-size: 16px;
   padding: 8px 10px;
   color: #684D79
 }
 
 #mainNav .navbar-nav > li > a {
-  font-size: 14px;
-  font-family: 'Roboto', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 16px;
+  font-family: 'Raleway', 'Roboto', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
 }
 
@@ -415,8 +415,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: white;
-  border-color: #fdcc52;
-  background-color: #fdcc52;
+  border-color: #9D89AA;
+  background-color: #9D89AA;
 }
 
 .btn {
@@ -426,7 +426,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .btn-xl {
-  font-size: 11px;
+  font-size: 16px;
   padding: 15px 45px;
 }
 
