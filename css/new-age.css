@@ -162,7 +162,7 @@ header.masthead {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-} 
+}
 
 .parallax {
   perspective: 1px;
@@ -222,6 +222,11 @@ header.masthead .device-container .screen img {
   header.masthead .device-container {
     max-width: 325px;
   }
+}
+
+#research {
+  background-color: #3b5998;
+  min-height: 775px;
 }
 
 section.download {
