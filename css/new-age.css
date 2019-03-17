@@ -158,9 +158,31 @@ header.masthead {
   color: #684D79;
   background-image: url("../img/placeholder.jpg");
   background-size: cover;
-  /* background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#E0A991), to(#684D78));
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #E0A991, #684D78); */
+  min-height: 775px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  background-image: url("../img/placeholder.jpg");
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
 }
 
 header.masthead .header-content {
@@ -204,7 +226,7 @@ header.masthead .device-container .screen img {
 
 section.download {
   position: relative;
-  padding: 150px 0;
+  padding: 70 70 0 0;
 }
 
 section.download h2 {
@@ -238,45 +260,45 @@ section.download .badges .badge-link img {
   }
 }
 
-section.features .section-heading {
+section.research .section-heading {
   margin-bottom: 100px;
 }
 
-section.features .section-heading h2 {
+section.research .section-heading h2 {
   margin-top: 0;
 }
 
-section.features .section-heading p {
+section.research .section-heading p {
   margin-bottom: 0;
 }
 
-section.features .device-container,
-section.features .feature-item {
+section.research .device-container,
+section.research .feature-item {
   max-width: 325px;
   margin: 0 auto;
 }
 
-section.features .device-container {
+section.research .device-container {
   margin-bottom: 100px;
 }
 
 @media (min-width: 992px) {
-  section.features .device-container {
+  section.research .device-container {
     margin-bottom: 0;
   }
 }
 
-section.features .feature-item {
+section.research .feature-item {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
 }
 
-section.features .feature-item h3 {
+section.research .feature-item h3 {
   font-size: 30px;
 }
 
-section.features .feature-item i {
+section.research .feature-item i {
   font-size: 80px;
   display: block;
   margin-bottom: 15px;
