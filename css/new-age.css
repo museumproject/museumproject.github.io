@@ -247,6 +247,19 @@ header.masthead .device-container .screen img {
   }
 }
 
+/* Removes images when mobile */
+@media (max-width: 768px) {
+  header.masthead {
+    background-image: none;
+    background-color: white;
+    text-align: center;
+  }
+
+  header.masthead .header-content {
+    margin: auto;
+  }
+}
+
 #research {
   background-color: #684D79;
   color: white;
@@ -349,9 +362,9 @@ section.research .feature-item i {
 section.cta {
   position: relative;
   padding: 250px 0;
-  /* background-image: url("../img/bg-cta.jpg"); */
+  background-image: url("../img/bg-cta.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: fill;
 }
 
 section.cta .cta-content {

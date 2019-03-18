@@ -124,7 +124,7 @@
       sliderExisted = true;
     }
 
-    this.$mirror.addClass('parallax-mirror').css({
+    this.$mirror.addClass('parallax-mirror2').css({
       visibility: 'hidden',
       zIndex: this.zIndex,
       position: 'fixed',
@@ -406,7 +406,7 @@
   // Parallax Data-API
 
   $( function () {
-    $('[data-parallax="scroll"]').parallax();
+    $('[data-parallax2="scroll"]').parallax();
   });
 
 }(jQuery, window, document));
