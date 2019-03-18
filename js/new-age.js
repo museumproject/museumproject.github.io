@@ -6,9 +6,13 @@
     // Get scroll position
     var s = $(window).scrollTop(),
     // scroll value and opacity
-    opacityVal = (s / 240);
-    // opacity value 0% to 100%
-    $('.parallax-container').css('opacity', opacityVal);
+    blurValue = (s / 540) * 5;
+    // blur value 0 to 5
+    $('.parallax-mirror').css('-webkit-filter', 'blur('+blurValue+'px)');
+    $('.parallax-mirror').css('-moz-filter', 'blur('+blurValue+'px)');
+    $('.parallax-mirror').css('-o-filter', 'blur('+blurValue+'px)');
+    $('.parallax-mirror').css('-ms-filter', 'blur('+blurValue+'px)');
+    $('.parallax-mirror').css('filter', 'blur('+blurValue+'px)');
   });
 
   // Smooth scrolling using jQuery easing
