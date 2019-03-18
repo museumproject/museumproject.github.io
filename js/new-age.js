@@ -8,7 +8,7 @@
     // scroll value and opacity
     opacityVal = (s / 240);
     // opacity value 0% to 100%
-    $('.blur').css('opacity', opacityVal);
+    $('.parallax-container').css('opacity', opacityVal);
   });
 
   // Smooth scrolling using jQuery easing
