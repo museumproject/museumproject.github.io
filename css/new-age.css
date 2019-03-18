@@ -405,6 +405,8 @@ footer {
   text-align: center;
   color: rgba(255, 255, 255, 0.3);
   background-color: #222222;
+  position: absolute;
+  width: 100%;
 }
 
 footer p {
