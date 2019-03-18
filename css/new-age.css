@@ -41,9 +41,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway', 'Roboto', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
+  font-family: 'Josefin Sans','Raleway', 'Roboto', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: bold;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 p {
@@ -177,6 +178,8 @@ header.masthead {
   background-size: cover;
 }
 
+
+
 /* For research intro part */
 .research-intro {
   position: relative;
@@ -215,7 +218,7 @@ header.masthead .header-content {
 }
 
 header.masthead .header-content h1 {
-  font-size: 30px;
+  font-size: 15px;
 }
 
 header.masthead .device-container {
@@ -240,7 +243,7 @@ header.masthead .device-container .screen img {
     text-align: left;
   }
   header.masthead .header-content h1 {
-    font-size: 50px;
+    font-size: 30px;
   }
   header.masthead .device-container {
     max-width: 325px;
