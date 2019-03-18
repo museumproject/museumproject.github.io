@@ -261,6 +261,13 @@ header.masthead .device-container .screen img {
   header.masthead .header-content {
     margin: auto;
   }
+
+  .research-intro {
+    color: black;
+    background-image: none;
+    background-color: white;
+    text-align: center;
+  }
 }
 
 #research {
