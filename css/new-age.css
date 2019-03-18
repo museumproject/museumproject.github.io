@@ -177,6 +177,16 @@ header.masthead {
   background-size: cover;
 }
 
+/* For research intro part */
+.research-intro {
+  position: relative;
+  width: 100%;
+  padding-top: 300px;
+  background-size: cover;
+  min-height: 500px;
+  color: white;
+}
+
 .parallax {
   perspective: 1px;
   height: 100vh;
@@ -245,6 +255,11 @@ header.masthead .device-container .screen img {
 #observation {
   width: 70%;
   margin: auto;
+}
+
+.parallax-container p {
+  margin: auto;
+  text-align: center;
 }
 
 section.download {
