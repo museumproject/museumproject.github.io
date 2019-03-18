@@ -306,6 +306,20 @@ header.masthead .device-container .screen img {
   }
 }
 
+#product {
+  display: flex;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#product p {
+  margin: 40px;
+}
+
+#product img {
+  max-height: 300px;
+}
+
 .parallax-container p {
   margin: auto;
   text-align: center;
