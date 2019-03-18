@@ -273,6 +273,32 @@ header.masthead .device-container .screen img {
   margin: auto;
 }
 
+#personas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#personas p {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  padding-right: 25px;
+}
+
+#personas img {
+  height: 300px;
+}
+
+@media (max-width: 768px) {
+  #personas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
 .parallax-container p {
   margin: auto;
   text-align: center;
