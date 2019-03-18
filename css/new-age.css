@@ -229,6 +229,15 @@ header.masthead .device-container .screen img {
   min-height: 775px;
 }
 
+#observation {
+  width: 70%;
+  margin: auto;
+}
+
+.pages {
+  margin: 65px;
+}
+
 section.download {
   position: relative;
   padding: 70 70 0 0;
