@@ -1,6 +1,16 @@
 (function($) {
   "use strict"; // Start of use strict
 
+  // Scrolling blur
+  $(window).scroll(function() {
+    // Get scroll position
+    var s = $(window).scrollTop(),
+    // scroll value and opacity
+    opacityVal = (s / 240);
+    // opacity value 0% to 100%
+    $('.blur').css('opacity', opacityVal);
+  });
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
