@@ -280,15 +280,9 @@ header.masthead .device-container .screen img {
   justify-content: space-between;
 }
 
-#research p {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-
 #research img {
   max-height: 300px;
+  padding-right: 25px;
 }
 
 #observation {
