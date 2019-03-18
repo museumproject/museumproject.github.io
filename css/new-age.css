@@ -41,9 +41,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Hammersmith One','Raleway', 'Roboto', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
+  font-family: 'Josefin Sans','Raleway', 'Roboto', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: bold;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 p {
