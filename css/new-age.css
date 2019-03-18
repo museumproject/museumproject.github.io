@@ -544,3 +544,20 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .rounded-circle {
   padding-bottom: 20px;
 }
+
+/* Style for carousel images */
+
+.carousel-inner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-image {
+  /* position: relative;
+  float: left;
+  width:  100px;
+  height: 100px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
