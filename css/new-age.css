@@ -573,12 +573,4 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   height: auto;
 }
 
-.carousel-image {
-  /* position: relative;
-  float: left;
-  width:  100px;
-  height: 100px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover; */
-}
+.top-buffer { margin-top:50px; }
