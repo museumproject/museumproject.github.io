@@ -159,6 +159,7 @@ section h2 {
   	filter: blur(10px);
 
 	height: 100%;
+  opacity: 0;
 }
 
 header.masthead {
