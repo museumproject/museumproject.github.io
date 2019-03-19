@@ -23,6 +23,9 @@
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 
+  <!-- Icon link -->
+  <link rel="icon" href="img/emp-icon.png" type="image/x-icon">
+
   <!-- Plugin CSS -->
   <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
 
@@ -78,10 +81,10 @@
  <header class="masthead">
     <div class="container h-100">
       <div class="row h-100">
-        <div class="col-lg-7 my-auto">
-          <div class="header-content">
-            <h1 class="mb-5">Experience Museum Project is a new way to explore art museums.</h1>
-            <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Check it out!</a>
+        <div class="col-lg-7 my-auto mx-auto">
+          <div class="header-content mx-auto">
+            <h1 class="mb-5" style="text-align: center;">Experience Museum Project is a new way to explore art museums.</h1>
+            <a class="js-scroll-trigger" href="#download"><img class="mx-auto" src="img/downarrow.png" style="width: 50px; height: auto; display: block;"></a>
           </div>
         </div>
         <div class="col-lg-5 my-auto">
@@ -91,10 +94,10 @@
   </header>
 </div>
 
- <section class="download bg-primary text-center">
+ <section class="download bg-primary text-center" id="download">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 mx-auto">
+        <div class="col-md-10 mx-auto">
           <h3 style="text-align: center;">Mission Statement</h3>
           <p>For our project, we aim to design a product that enriches the museum experience
             for visitors. Finding a personal connection with exhibits is an important part of
@@ -114,32 +117,36 @@
          <div class="col-md-12 mx-auto">
            <h3 style="text-align: center;">Product</h3>
             <p><strong>Two key devices in our product are a hand-held tablet and a pen.</strong></p>
-
          </div>
        </div>
+     </div>
+     <div class="container">
        <div class="row">
-         <div class="col-md-6 mx-auto">
-
-
+         <div class="col-md-5 mx-auto">
            <div id="product">
              <div>
-               <img src="img/pen.png" class=img-fluid alt="Picture of a pen">
-               <p>
-                 Using the pen, users can tap symbols on walls corresponding to exhibits and collect information
-                 on them, thus physically interacting with the museum.</p>
-            </div>
-
+               <div style="padding-right: 10px">
+                 <img src="img/pen.png" style="transform: scaleX(-1)" alt="Picture of a pen">
+                 <p>
+                   Using the pen, users can tap symbols on walls corresponding to art pieces and collect information
+                   on them, thus physically interacting with the museum.
+                 </p>
+               </div>
+             </div>
           </div>
          </div>
-         <div class="col-md-6 mx-auto">
-            <div id="product">
+         <div class="col-md-5 mx-auto">
+           <div id="product">
            <div>
-             <img src="img/tablet.png" class=img-fluid alt="Picture of a tablet">
-            <p>
-              This information is transferred to a
-              paired tablet, where users can view exhibits and take notes using the pen.
-            </p>
+             <div style="padding-left: 10px">
+               <img src="img/tablet.png" style="transform: scaleX(-1)" alt="Picture of a tablet">
+               <p>
+                This information is transferred to a
+                paired tablet, where users can view art pieces and take notes using the pen.
+               </p>
+             </div>
           </div>
+        </div>
          </div>
        </div>
      </div>
@@ -162,7 +169,7 @@
                 existing processes, and conducting observations at a local museum.
               </p>
               <br>
-              <a href="research.html" class="btn btn-outline btn-xl js-scroll-trigger">See More</a>
+              <a href="research.html" class="btn btn-outline btn-xl js-scroll-trigger">SEE OUR RESEARCH</a>
         </div>
       </div>
       </div>
@@ -174,7 +181,7 @@
       <div class="section-heading">
         <div class="row">
         <div class="col-lg-5">
-          <img src="img/research1.jpg" class="img-fluid" alt="image of Alli, Annie, and Vishaka near the Seattle Art Museum">
+          <img src="img/homepg.jpg" class="img-fluid" alt="Image of sorting our synthesis from our interviews">
         </div>
         <div class="col-md-6 mx-auto">
           <br>
@@ -187,7 +194,7 @@
                 needs.
               </p>
               <br>
-              <a href="analysis.html" class="btn btn-outline btn-xl js-scroll-trigger">See More</a>
+              <a href="analysis.html" class="btn btn-outline btn-xl js-scroll-trigger">SEE OUR ANALYSIS</a>
             </div>
           </div>
       </div>
@@ -195,62 +202,115 @@
   </div>
   </section>
 
-  <section class="cta">
-
-      <div class="container">
-        <h2>Stop waiting.<br>Start building.</h2>
-        <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+  <section class="bg-primary">
+    <div class="container">
+      <div class="section-heading">
+        <div class="row">
+        <div class="col-lg-5">
+          <img src="img/ideation.jpg" class="img-fluid" alt="Image of a poster we produced with post-its from in-class critique">
+        </div>
+        <div class="col-md-6 mx-auto">
+          <br>
+            <div>
+              <h3>Ideation</h3>
+              <p>
+                After analyzing our research and problem statement, we began to ideate what our possible
+                solutions could be. Through this process, we created a set of design requirements, possible
+                storyboard interactions, and multiple interface designs.
+              </p>
+              <br>
+              <a href="ideation.html" class="btn btn-outline btn-xl js-scroll-trigger">SEE OUR IDEATION</a>
+            </div>
+          </div>
       </div>
-
-    <div class="overlay"></div>
+    </div>
+  </div>
   </section>
 
-  <section class="contact bg-primary" id="contact">
+  <section>
+    <div class="container">
+      <div class="section-heading">
+        <div class="row">
+        <div class="col-lg-5">
+          <img src="img/evaluationheader.jpg" class="img-fluid" alt="Image of Vishaka and Annie taking pictures of the paper prototype">
+        </div>
+        <div class="col-md-6 mx-auto">
+          <br>
+            <div>
+              <h3>Evaluation</h3>
+              <p>
+                Once settling on our design form factor, we went through the process of developing a paper
+                prototype, preparing an evaluation plan, and conducting a simple evaluation.
+              </p>
+              <br>
+              <a href="evaluation.html" class="btn btn-outline btn-xl js-scroll-trigger">SEE OUR EVALUATION</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="bg-primary">
+    <div class="container">
+      <div class="section-heading">
+        <div class="row">
+        <div class="col-lg-5">
+          <img src="img/designheader.jpg" class="img-fluid" alt="Image of print-outs of our design">
+        </div>
+        <div class="col-md-6 mx-auto">
+          <br>
+            <div>
+              <h3>Designs</h3>
+              <p>
+                In the final stretch of our project, we began to develop wireframes for our screens.
+                After wireframing our system, we began to refine our designs to create our high-fidelity
+                system.
+              </p>
+              <br>
+              <a href="design.html" class="btn btn-outline btn-xl js-scroll-trigger">SEE OUR DESIGNS</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="contact" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg mx-auto">
-          <h2>We
-            <i class="fas fa-heart"></i>
-            our team!
+          <h2>Our Team
           </h2>
         </div>
       </div>
       <div class="row" id="profiles">
-        <div class="col-3">
-          <img src="img/profile.png" class="img-fluid rounded-circle">
+        <div class="col-sm">
+          <img src="img/vishaka.png" class="img-fluid rounded-circle">
             <h4>Vishaka</h4>
           </div>
         <div class="col-sm">
-          <img src="img/profile.png" class="img-fluid rounded-circle">
+          <img src="img/annie.jpg" class="img-fluid rounded-circle">
             <h4>Annie</h4>
         </div>
         <div class="col-sm">
-          <img src="img/profile.png" class="img-fluid rounded-circle">
+          <img src="img/alli.png" class="img-fluid rounded-circle">
             <h4>Alli</h4>
         </div>
         <div class="col-sm">
-          <img src="img/profile.png" class="img-fluid rounded-circle">
+          <img src="img/alex.png" class="img-fluid rounded-circle">
             <h4>Alex</h4>
         </div>
       </div>
       </div>
+      <br>
+      <a href="about.html" class="btn btn-outline btn-xl js-scroll-trigger">LEARN MORE ABOUT US</a>
     </div>
   </section>
 
   <footer>
     <div class="container">
       <p>&copy; Experience Museum Project 2019. All Rights Reserved.</p>
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a href="#">Privacy</a>
-        </li>
-        <li class="list-inline-item">
-          <a href="#">Terms</a>
-        </li>
-        <li class="list-inline-item">
-          <a href="#">FAQ</a>
-        </li>
-      </ul>
     </div>
   </footer>
 
